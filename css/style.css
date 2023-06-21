@@ -1,0 +1,111 @@
+body{
+	font-family: sans-serif;
+	background-image: url(https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    background-color: rgba(10, 89, 121, 0.2);
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 12;
+    font-family: poppins;
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+ 
+.tulisan_keterangan{
+	text-align: left;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: None;
+}
+ 
+.kotak_form{
+	width: 600px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+    border-radius: 12px;
+
+}
+.tombol_konversi{
+    background: #176a74;
+    color: white;
+    font-size: 11pt;
+    width: 20%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 10px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: #082427;
+}
+
+.tombol_reset{
+    background: #176a74;
+    color: white;
+    font-size: 11pt;
+    width: 20%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.tombol_reverse{
+    background: #176a74;
+    color: white;
+    font-size: 11pt;
+    width: 20%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+label{
+	font-size: 11pt;
+}
+ 
+.form_temperatur{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.fahrenhit_celcius{
+    color: blueviolet;
+}
+
+.kotak_keterangan{
+    width: 600px;
+	background: rgba(207, 117, 230, 0.2);
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 20px 20px;
+    border-radius: 12px;
+}
+
+.footer{
+    background-color: rgba(207, 117, 230, 0.2) ;
+    color: white;
+    text-align: center;
+    font-size: 11pt;
+    padding: 20px;
+    margin:none;
+}
